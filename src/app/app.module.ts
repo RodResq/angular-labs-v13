@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ServersComponent } from './servers/servers.component';
 import { SuccesAlertComponent } from './succes-alert/succes-alert.component';
 import { FormsModule } from '@angular/forms';
+import { PraticDatabindingComponent } from './pratic-databinding/pratic-databinding.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FormsModule } from '@angular/forms';
     ServerComponent,
     ServersComponent,
     SuccesAlertComponent,
-    WarningAlertComponent
+    WarningAlertComponent,
+    PraticDatabindingComponent
   ],
   imports: [
     BrowserModule,
